@@ -1,5 +1,5 @@
 # My name
-Kalinina Oksana ![photo](0132.jpg)
+Kalinina Oksana, 29 years ![photo](0132.jpg)
 
 *****
 
