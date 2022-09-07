@@ -24,7 +24,7 @@ I will get what I want
 * JavaScript
 * Python
 * Git
-_Also I have worked with PHP, Laravel, CMS Wordpress_
+* _Also I have worked with PHP, Laravel, CMS Wordpress_
 
 *****
 
