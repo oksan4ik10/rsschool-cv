@@ -60,19 +60,19 @@ My problem solution [task](https://eloquentjavascript.net/06_object.html)
 ```
 *****
 
-# My research projects
+# My projects
 
-    * [Project JS](https://github.com/oksan4ik10/diplomGlo)
-    * [Project Python](https://github.com/oksan4ik10/bmi/tree/day5)
-    * [Project HTML/CSS/JS](https://github.com/oksan4ik10/mySite)
-    * [Virtual Keyboard](https://github.com/oksan4ik10/virtual-keyboard)
+* [Project JS](https://github.com/oksan4ik10/diplomGlo)
+* [Project Python](https://github.com/oksan4ik10/bmi/tree/day5)
+* [Project HTML/CSS/JS](https://github.com/oksan4ik10/mySite)
+* [Virtual Keyboard](https://github.com/oksan4ik10/virtual-keyboard)
 
 *****
 
 # My education
 
-    * MGUPI (engineer) 2009 - 2014
-    * Online school Glo Academy (JavaScript) 2019
+* MGUPI (engineer) 2009 - 2014
+* Online school Glo Academy (JavaScript) 2019
 
 
 *****
