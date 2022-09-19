@@ -1,4 +1,5 @@
 @import url(../fonts/stylesheet.css);
+@import url(normilize.css);
 
 * {
   margin: 0;
