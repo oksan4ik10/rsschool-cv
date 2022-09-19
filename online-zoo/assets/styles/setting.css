@@ -15,3 +15,15 @@
   box-sizing: content-box;
   padding: 0px 10px;
 }
+
+.btn {
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 16px 0px;
+  width: 298px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+}
