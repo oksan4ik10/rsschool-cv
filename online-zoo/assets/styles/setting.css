@@ -8,3 +8,10 @@
   font-family: 'Roboto';
   font-style: normal;
 }
+
+.container {
+  margin: auto;
+  max-width: 1160px;
+  box-sizing: content-box;
+  padding: 0px 10px;
+}
