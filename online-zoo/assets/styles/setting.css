@@ -37,6 +37,14 @@ h3 {
   color: #333B41
 }
 
+.body-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .small {
   font-weight: 300;
   font-size: 15px;
@@ -56,10 +64,7 @@ button {
 }
 
 .btn {
-  font-size: 16px;
-  line-height: 140%;
   text-align: center;
-  text-transform: uppercase;
   color: #FFFFFF;
   padding: 16px 0px;
   width: 298px;

@@ -13,8 +13,6 @@
   margin-bottom: 69px;
 }
 
-
-
 .watch__circle {
   width: 465px;
   height: 465px;
@@ -57,6 +55,8 @@
   margin-right: 100px;
 }
 
+/*===========backstage================*/
+
 .back {
   background: url(../../images/backgrond/flower_foto1.png) top right no-repeat;
 }
@@ -68,12 +68,6 @@
   grid-gap: 87px;
 }
 
-
-.back__photo {}
-
-.back__img {}
-
-.back__info {}
 
 .back__title {
   margin-bottom: 20px;
@@ -87,3 +81,134 @@
   margin-top: 54px;
   margin-bottom: 34px;
 }
+
+/*============PETS====================*/
+.pets {
+  background: url("../../images/pets/bg/strelitzia 1.png") right bottom no-repeat, url("../../images/pets/bg/palm_foto.png") left bottom no-repeat;
+
+}
+
+.pets__container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+
+
+.pets__slider {}
+
+.pets__slider-btns {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px 30px;
+
+}
+
+.pets__btns {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: -82px;
+  width: calc(100% + 164px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__btn {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #F9804B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.slider__btn:hover {
+  cursor: pointer;
+}
+
+.slider__btn::before {
+  content: "";
+  display: block;
+  background: url(../../icons/pets/Vector.svg) no-repeat;
+  width: 20px;
+  height: 10px;
+}
+
+.slider__prev::before {
+  background: url(../../icons/pets/Vector-prev.svg) no-repeat;
+}
+
+.slider__btn:active {
+  background-color: #4B9200;
+
+}
+
+.slider__next {}
+
+.slider__card {}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid #FA6F32;
+}
+
+.card__img {
+  width: 100%;
+  height: 366px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: .3s;
+
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 12px 14px 16px;
+}
+
+
+
+.card__text {
+  margin-top: -70px;
+  transition: .3s;
+  opacity: 0;
+
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #F1F3F2;
+}
+
+.card:hover .card__text {
+  margin-top: -10px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.card:hover .card__img {
+  transform: scale(1.05);
+}
+
+
+.body-btn {}
+
+.card__subtitle {}
+
+.small {}
+
+.card__icon {}
