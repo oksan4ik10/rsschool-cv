@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+}
+
 .container {
   margin: auto;
   max-width: 1160px;
@@ -26,4 +31,44 @@
   width: 298px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 25px;
+  transition: .3s;
+  position: relative;
+
+}
+
+.btn::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #E47209;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  z-index: 0;
+  opacity: 0;
+  transition: .3s;
+}
+
+.btn>span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn:hover::before {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn:hover span {
+  cursor: pointer;
+}
+
+.btn:active::before {
+  background-color: #4B9200;
+}
+
+.btn.disabled {
+  background-color: #767474;
 }
