@@ -56,3 +56,34 @@
 .watch__btn {
   margin-right: 100px;
 }
+
+.back {
+  background: url(../../images/backgrond/flower_foto1.png) top right no-repeat;
+}
+
+.back__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 140px 0px 180px 0px;
+  grid-gap: 87px;
+}
+
+
+.back__photo {}
+
+.back__img {}
+
+.back__info {}
+
+.back__title {
+  margin-bottom: 20px;
+}
+
+.back__text {}
+
+
+
+.back__subtitle {
+  margin-top: 54px;
+  margin-bottom: 34px;
+}
