@@ -72,6 +72,8 @@ button {
   border-radius: 25px;
   transition: .3s;
   position: relative;
+  display: block;
+  text-decoration: none;
 
 }
 
